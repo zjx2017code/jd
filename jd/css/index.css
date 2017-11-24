@@ -1,0 +1,138 @@
+.shortcut {
+	height: 30px;
+	background: #e2e3e4;
+	border-bottom: 1px solid #E2E3E4;
+}
+
+.icon-dingwei1 {
+	color: #f10215;
+}
+
+.loc {
+	height: 30px;
+	padding: 5px 10px 0 7px;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	width: 68px;
+	position: relative;
+	z-index: 10;
+}
+
+.loc:hover {
+	background: #FFFFFF;
+	border: 1px solid #ddd;
+	border-bottom-color: white;
+}
+
+.item>a {
+	color: white;
+}
+
+.item {
+	background-color: #f10215;
+	width: 43px;
+	text-align: center;
+	padding: 3px;
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-right: 10px;
+}
+
+.content-list {
+	width: 251px;
+	padding: 10px;
+}
+
+.city-list {
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	position: absolute;
+	top: 29px;
+	display: none;
+}
+
+.loc-box>li:hover>.city-list {
+	display: block;
+}
+
+.shortcut-box>li {
+	float: left;
+}
+
+.shortcut-box>li>a {
+	padding: 0 8px;
+}
+
+
+/*快捷方式列表*/
+
+ul.fr.shortcut-box {
+	height: 30px;
+	line-height: 30px;
+}
+
+li.spacer {
+	background: #c4c4c4;
+	width: 1px;
+	height: 13px;
+	margin: 8px 4px;
+}
+
+.my-jd>* {
+	float: left;
+}
+
+i.iconfont.icon-todown {
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+.my-jd  {
+    height: 30px;
+    border: 1px solid transparent;
+    margin-top: -2px;
+    paddind: 0 6px 0 8px;
+    position: relative;
+    z-index: 10;
+    width: 72px;
+}
+.my-jd:hover {
+	background: white;
+	border: 1px solid #DDDDDD;
+	border-bottom-color: white;
+}
+
+.my-jd>*{
+	float: left;
+}
+.my-jd-box {
+    width: 280px;
+    height: 160px;
+    border: 1px solid #ddd;
+    background: white;
+    position: absolute;
+    top: 29px;
+    display: none;
+}
+.li-my-jd{
+	position: relative;
+}
+.li-my-jd:hover .my-jd-box{
+	display: block;
+}
+.my-jd-box>ul>li {
+    width: 50%;
+    float: left;
+    line-height: 2;
+}
+
+
+
+.my-jd-box>ul {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.my-jd-box>ul:first-child {
+    border-bottom: 1px solid #eee;
+}
